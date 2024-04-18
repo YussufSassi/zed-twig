@@ -1,0 +1,25 @@
+name = "Twig"
+grammar = "twig"
+path_suffixes = ["html.twig", "twig", "twig.html"]
+autoclose_before = ">})"
+block_comment = ["<!-- ", " -->"]
+brackets = [
+    { start = "{{", end = "}}", close = true, newline = true },
+    { start = "{%", end = "%}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "comment",
+        "string",
+    ] },
+    { start = "<", end = ">", close = true, newline = true, not_in = [
+        "comment",
+        "string",
+    ] },
+    { start = "!--", end = " --", close = true, newline = false, not_in = [
+        "comment",
+        "string",
+    ] },
+]
+word_characters = ["-"]
+prettier_parser_name = "twig"
