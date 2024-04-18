@@ -1,6 +1,6 @@
 id = "zed-twig"
 name = "Twig for Zed"
-version = "0.0.1"
+version = "0.1.0"
 schema_version = 1
 authors = ["Yussuf Sassi <yussuf@tuta.io>"]
 description = "Syntax highlighting and Intellisense for Twig in Zed"
