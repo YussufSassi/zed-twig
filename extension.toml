@@ -1,5 +1,5 @@
 id = "twig"
-name = "Twig for Zed"
+name = "Twig"
 version = "0.1.0"
 schema_version = 1
 authors = ["Yussuf Sassi <yussuf@tuta.io>"]
