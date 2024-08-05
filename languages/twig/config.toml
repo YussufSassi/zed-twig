@@ -2,7 +2,7 @@ name = "Twig"
 grammar = "twig"
 path_suffixes = ["html.twig", "twig", "twig.html"]
 autoclose_before = ">})"
-block_comment = ["<!-- ", " -->"]
+block_comment = ["{# ", " #}"]
 brackets = [
     { start = "{{", end = "}}", close = true, newline = true },
     { start = "{%", end = "%}", close = true, newline = true },
