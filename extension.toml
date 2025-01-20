@@ -7,8 +7,8 @@ description = "Syntax highlighting and Intellisense for Twig in Zed"
 repository = "https://github.com/YussufSassi/zed-twig"
 
 [grammars.twig]
-repository = "https://github.com/gbprod/tree-sitter-twig"
-commit = "eaf80e6af969e25993576477a9dbdba3e48c1305"
+repository = "https://github.com/jannisborgers/tree-sitter-twig"
+commit = "723926cff978453c40ee11ca8046de0cb248873c"
 
 [language_servers.twiggy-language-server]
 name = "Twiggy Language Server"
