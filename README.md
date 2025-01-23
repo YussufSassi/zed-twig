@@ -4,9 +4,9 @@ This is a zed extension that enables intellisense and syntax highlighting for th
 
 ## Credits
 
-This extension is based on:
+This extension uses:
 
-- https://github.com/gbprod/tree-sitter-twig for the syntax highlighting
-- https://github.com/kaermorchen/twig-language-server for the intellisense
+- https://github.com/gbprod/tree-sitter-twig for syntax highlighting
+- https://github.com/moetelo/twiggy for the language-server
 
 Contributions are welcome!

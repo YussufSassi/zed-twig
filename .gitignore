@@ -1,8 +1,6 @@
+# zed-twig
+*.wasm
+/grammars
+
+# Rust
 /target
-
-
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target

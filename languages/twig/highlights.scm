@@ -17,6 +17,7 @@
 (repeat) @repeat
 (method) @method
 (parameter) @parameter
+(hash_key) @property
 
 [
     "{{"

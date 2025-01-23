@@ -1,8 +1,8 @@
 use std::{env, fs};
 use zed_extension_api::{self as zed, Result};
 
-const SERVER_PATH: &str = "node_modules/twig-language-server/out/index.js";
-const PACKAGE_NAME: &str = "twig-language-server";
+const SERVER_PATH: &str = "node_modules/twiggy-language-server/dist/server.js";
+const PACKAGE_NAME: &str = "twiggy-language-server";
 
 struct TwigExtension {
     did_find_server: bool,
@@ -23,7 +23,7 @@ impl TwigExtension {
             &language_server_id,
             &zed::LanguageServerInstallationStatus::CheckingForUpdate,
         );
-        let version = zed::npm_package_latest_version(PACKAGE_NAME)?;
+        let version = "0.17.0".to_string();
 
         if !server_exists
             || zed::npm_package_installed_version(PACKAGE_NAME)?.as_ref() != Some(&version)
