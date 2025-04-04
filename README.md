@@ -4,6 +4,26 @@
 
 This is a zed extension that enables intellisense and syntax highlighting for the twig templating language.
 
+# Get Emmet to work
+
+Edit your `~/Library/Application\ Support/Zed/extensions/installed/emmet/extension.toml` accordingly:
+
+```toml
+[language_servers.emmet-language-server]
+language = "HTML"
+languages = ["HTML", "PHP", "ERB", "JavaScript", "TSX", "CSS", "Twig"]
+
+[language_servers.emmet-language-server.language_ids]
+TSX = "typescriptreact"
+HTML = "html"
+PHP = "php"
+JavaScript = "javascriptreact"
+CSS = "css"
+ERB = "eruby"
+Twig = "twig"
+```
+
+
 ## Credits
 
 This extension uses:
