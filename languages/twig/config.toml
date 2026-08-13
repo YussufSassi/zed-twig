@@ -23,10 +23,6 @@ brackets = [
         "comment",
         "string",
     ] },
-    { start = "!--", end = " --", close = true, newline = false, not_in = [
-        "comment",
-        "string",
-    ] },
 ]
 word_characters = ["-"]
 prettier_parser_name = "twig"
